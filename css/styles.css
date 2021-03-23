@@ -11,24 +11,25 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --wisper:#edeef5;
+  --castwhite:#fdfefe;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
-  --yellow: #fed136;
+  --yellow: #ffffff;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #fed136;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #fed136;
+  --warning: #ffffff;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -46,6 +47,8 @@
 *::after {
   box-sizing: border-box;
 }
+
+
 
 html {
   font-family: sans-serif;
@@ -159,12 +162,10 @@ sup {
 }
 
 a {
-  color: #fed136;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #e6b301;
   text-decoration: underline;
 }
 
@@ -173,7 +174,6 @@ a:not([href]):not([class]) {
   text-decoration: none;
 }
 a:not([href]):not([class]):hover {
-  color: inherit;
   text-decoration: none;
 }
 
@@ -3909,7 +3909,7 @@ input[type=button].btn-block {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: yellow;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -9956,7 +9956,6 @@ h3 {
 .table th {
     background-color: #fff !important;
   }
-
   .table-bordered th,
 .table-bordered td {
     border: 1px solid #dee2e6 !important;
@@ -9986,7 +9985,8 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 1rem 0;
+  background-color: var(--wisper);
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -10007,12 +10007,12 @@ p {
   }
 }
 ::-moz-selection {
-  background: #fed136;
+  background: #ffffff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #ffffff;
   text-shadow: none;
 }
 
@@ -10056,11 +10056,9 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #fed136;
   border: 0;
 }
 #mainNav .navbar-brand {
-  color: #fed136;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -10071,13 +10069,12 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   color: #fff;
   letter-spacing: 0.0625em;
+  font-weight: bold;
 }
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
-}
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -10098,7 +10095,8 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #2876f9;
+    background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10114,17 +10112,23 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
+header{
+  height: 100%;
+  width: 100%;
+}
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  padding-top:  5.5rem;
+  padding-bottom: 3rem;
+  background-color: #2876f9;
+  background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
+
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10134,16 +10138,18 @@ header.masthead .masthead-subheading {
 }
 header.masthead .masthead-heading {
   font-size: 3.0rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 3.25rem;
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
 }
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -10481,20 +10487,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.icon-list{
-  padding-inline-start: 0 !important;
-}
-.icon-item{
-  display: flex;
-  font-size: 2rem;
-  padding: 0 20px;
-  justify-content: center;
-}
-.about-info{
-  border: 1px solid #000000;
-  border-radius: 3px;
-}
-.avatar{
-width: 100%;
 }

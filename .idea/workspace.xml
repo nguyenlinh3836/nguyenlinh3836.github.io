@@ -20,15 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b376d94-241a-4aca-b3d5-75ef06351a8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/computer-2982270_1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/undraw_design_stats_ne2k.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/05.Data.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Delivery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Subscribe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Support.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/boston-public-library-4yPHCb1SPR4-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/example-12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/example-29.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/kiril-dobrev-v63UL8s28Ew-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pedro-lastra-Nyvq2juw4_o-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/team/pedro-lastra-Nyvq2juw4_o-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendors/wowjs/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendors/wowjs/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendors/wowjs/wow.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,10 +65,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LEARN_PROJECT\nguyenlinh3836.github.io\assets\img" />
+      <recent name="D:\LEARN_PROJECT\nguyenlinh3836.github.io\assets" />
+      <recent name="D:\LEARN_PROJECT\nguyenlinh3836.github.io\assets\img\team" />
+      <recent name="D:\LEARN_PROJECT\nguyenlinh3836.github.io\vendors\wowjs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\LEARN_PROJECT\nguyenlinh3836.github.io\assets\img" />
     </key>
   </component>
@@ -60,6 +90,16 @@
       <updated>1615946311155</updated>
       <workItem from="1615946312310" duration="3025000" />
       <workItem from="1615972921415" duration="2851000" />
+      <workItem from="1615977253139" duration="1502000" />
+      <workItem from="1616146594548" duration="3446000" />
+      <workItem from="1616161305055" duration="5533000" />
+      <workItem from="1616209092479" duration="5135000" />
+      <workItem from="1616230121585" duration="7719000" />
+      <workItem from="1616246109269" duration="4335000" />
+      <workItem from="1616293973202" duration="6769000" />
+      <workItem from="1616319794918" duration="3229000" />
+      <workItem from="1616335974309" duration="115000" />
+      <workItem from="1616381074807" duration="5282000" />
     </task>
     <servers />
   </component>
@@ -76,5 +116,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1616146608417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616146608417" />
   </component>
 </project>
