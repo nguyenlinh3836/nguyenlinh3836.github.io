@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- Using animate.css-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!--        Using OwlCarousel-->
+        <link rel="stylesheet" href="vendors/owlcarousel/owl.carousel.min.css">
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -57,11 +59,11 @@
         <!-- Services-->
         <section class="page-section " id="about" >
             <div class="container">
-                <div class="row about-info" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="50" >
+                <div class="row about-info" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear" >
                     <div class="col-sm-7">
                         <img class="avatar" src="assets/img/Success.svg">
                     </div>
-                    <div class="col-sm-5 m-auto">
+                    <div class="col-sm-5 m-auto" >
                         <h1 class="about-head">About me</h1>
                         <h5>Nguyen Hoang Linh - a Web Developer </h5>
                             <p>I'm 24 years old and live in VietNam. Like coding, writing, explore new things. </p>
@@ -76,7 +78,7 @@
         </section>
         <!-- About-->
         <section class="page-section" id="skill">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Skills</h2>
                 </div>
@@ -128,118 +130,24 @@
         </section>
         <!-- Portfolio Grid-->
         <section class="page-section" id="portfolio">
-            <div class="container">
+            <div class="container"  data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Projects</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item ">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">View More</div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                            </div>
+                    <div class="owl-carousel">
+                        <div>
+                            <img src="assets/img/portfolio/01-thumbnail.jpg">
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">View More</div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">View More</div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">View More</div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">View More</div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
-                            </div>
-                        </div>
+                        <div> <img src="assets/img/portfolio/02-thumbnail.jpg"> </div>
+                        <div> <img src="assets/img/portfolio/03-thumbnail.jpg"> </div>
+                        <div> <img src="assets/img/portfolio/04-thumbnail.jpg"> </div>
+                        <div><img src="assets/img/portfolio/05-thumbnail.jpg"> </div>
+                        <div> <img src="assets/img/portfolio/06-thumbnail.jpg"> </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -486,8 +394,31 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="vendors/owlcarousel/owl.carousel.min.js"></script>
         <script>
             AOS.init();
+            $(document).ready(function(){
+                $(".owl-carousel").owlCarousel({
+                    loop:true,
+                    button:true,
+                    autoplay:true,
+                    autoplayTimeout: 4000,
+                    margin:10,
+                    responsiveClass:true,
+                    autoplayHoverPause:true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        768: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                });
+            });
         </script>
     </body>
 </html>

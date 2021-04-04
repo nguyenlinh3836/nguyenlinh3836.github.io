@@ -22,13 +22,18 @@
 }
 @media (max-width: 768px) {
     .head-text h1{
-        font-size: 4rem;
+        font-size: 3rem;
         z-index: 99;
         width: 100%;
         text-align: center;
     }
     .img-header{
         overflow: hidden;
+    }
+    .head-text a{
+        margin: auto;
+        align-content: center;
+        width: 100%;
     }
 }
 
